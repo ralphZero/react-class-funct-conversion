@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <FunctionalComponent count={count} />
-          <ClassComponent count={count} />
+          {/* <ClassComponent count={count} /> */}
         </header>
       </div>
     );
